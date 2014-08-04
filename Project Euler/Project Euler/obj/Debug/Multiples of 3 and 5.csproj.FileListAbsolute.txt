@@ -4,3 +4,6 @@ C:\Users\szd0qs\Documents\GitHub\Project Euler\Project Euler\bin\Debug\Project E
 C:\Users\szd0qs\Documents\GitHub\Project Euler\Project Euler\obj\Debug\Multiples of 3 and 5.csprojResolveAssemblyReference.cache
 C:\Users\szd0qs\Documents\GitHub\Project Euler\Project Euler\obj\Debug\Project Euler.exe
 C:\Users\szd0qs\Documents\GitHub\Project Euler\Project Euler\obj\Debug\Project Euler.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Project Euler\bin\Debug\Project Euler.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Project Euler\obj\Debug\Project Euler.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Project Euler\obj\Debug\Project Euler.pdb

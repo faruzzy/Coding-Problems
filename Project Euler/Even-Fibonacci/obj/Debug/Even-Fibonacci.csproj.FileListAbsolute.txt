@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Even-Fibonacci\bin\Debug\Even-Fibonacci.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Even-Fibonacci\bin\Debug\Even-Fibonacci.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Even-Fibonacci\bin\Debug\Even-Fibonacci.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Even-Fibonacci\obj\Debug\Even-Fibonacci.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Even-Fibonacci\obj\Debug\Even-Fibonacci.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Even-Fibonacci\obj\Debug\Even-Fibonacci.pdb
