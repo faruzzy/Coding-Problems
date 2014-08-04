@@ -1,0 +1,9 @@
+C:\Users\szd0qs\Documents\GitHub\Interviews\Interviews\bin\Debug\Interviews.exe.config
+C:\Users\szd0qs\Documents\GitHub\Interviews\Interviews\bin\Debug\Interviews.exe
+C:\Users\szd0qs\Documents\GitHub\Interviews\Interviews\bin\Debug\Interviews.pdb
+C:\Users\szd0qs\Documents\GitHub\Interviews\Interviews\obj\Debug\Interviews.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Interviews\Interviews\obj\Debug\Interviews.exe
+C:\Users\szd0qs\Documents\GitHub\Interviews\Interviews\obj\Debug\Interviews.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\Interviews\bin\Debug\Interviews.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\Interviews\obj\Debug\Interviews.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\Interviews\obj\Debug\Interviews.pdb
