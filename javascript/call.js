@@ -1,3 +1,4 @@
+//works like call function
 Function.prototype.myCall = function(scope) {
 	'use strict';
 	var args = Array.slice.call(arguments, 1);
