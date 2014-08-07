@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "CodeJam\ReverseWords.csproj", "{710A1BD7-5D4C-495B-925D-EC30185C95F9}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienLanguage", "AlienLanguage\AlienLanguage.csproj", "{CB9C61FC-D951-4DF5-A539-DA8F4B401E68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T9Spelling", "T9Spelling\T9Spelling.csproj", "{1AD8B974-ABFE-4AFF-A154-5F4E07FA1F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords_No_Split", "ReverseWords_No_Split\ReverseWords_No_Split.csproj", "{041A1D65-FF51-4EE6-BB65-5C42D0B4F57D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1AD8B974-ABFE-4AFF-A154-5F4E07FA1F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD8B974-ABFE-4AFF-A154-5F4E07FA1F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD8B974-ABFE-4AFF-A154-5F4E07FA1F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041A1D65-FF51-4EE6-BB65-5C42D0B4F57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A1D65-FF51-4EE6-BB65-5C42D0B4F57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A1D65-FF51-4EE6-BB65-5C42D0B4F57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A1D65-FF51-4EE6-BB65-5C42D0B4F57D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
