@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 namespace AlienLanguage
 {
-    class Program
+    class AllienLanguage
     {
         static void Main(string[] args)
         {

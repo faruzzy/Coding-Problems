@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ReverseWords_No_Split
 {
-    class Program
+    class ReverseWords_No_Split
     {
         static void Main(string[] args)
         {

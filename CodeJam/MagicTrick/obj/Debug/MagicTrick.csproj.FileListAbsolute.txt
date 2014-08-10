@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\MagicTrick\bin\Debug\MagicTrick.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\MagicTrick\obj\Debug\MagicTrick.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\MagicTrick\bin\Debug\MagicTrick.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\MagicTrick\bin\Debug\MagicTrick.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\MagicTrick\obj\Debug\MagicTrick.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\MagicTrick\obj\Debug\MagicTrick.pdb

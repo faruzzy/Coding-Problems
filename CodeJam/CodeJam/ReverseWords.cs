@@ -7,7 +7,7 @@ using System.IO;
 
 namespace CodeJam
 {
-    class Program
+    class ReverseWords
     {
         static void Main(string[] args)
         {

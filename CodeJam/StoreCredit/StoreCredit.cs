@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StoreCredit
 {
-    class Program
+    class StoreCredit
     {
         static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace StoreCredit
 
                 foreach (int price in prices)
                 {
-                    Dictionary<int, int> set = new Dictionary<int,int>();
+                    Dictionary<int, int> set = new Dictionary<int, int>();
                     int remainer = max - price;
                     int idx = Array.IndexOf(prices, remainer);
 

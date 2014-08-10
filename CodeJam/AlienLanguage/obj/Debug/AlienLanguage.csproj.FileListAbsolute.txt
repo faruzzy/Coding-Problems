@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AlienLanguage\bin\Debug\AlienLanguage.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AlienLanguage\bin\Debug\AlienLanguage.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AlienLanguage\bin\Debug\AlienLanguage.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AlienLanguage\obj\Debug\AlienLanguage.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AlienLanguage\obj\Debug\AlienLanguage.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AlienLanguage\obj\Debug\AlienLanguage.pdb

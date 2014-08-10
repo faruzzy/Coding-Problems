@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AllIndexes\bin\Debug\AllIndexes.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AllIndexes\bin\Debug\AllIndexes.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AllIndexes\bin\Debug\AllIndexes.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AllIndexes\obj\Debug\AllIndexes.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AllIndexes\obj\Debug\AllIndexes.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\AllIndexes\obj\Debug\AllIndexes.pdb
