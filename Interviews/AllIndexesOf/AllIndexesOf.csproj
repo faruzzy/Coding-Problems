@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CB4E9B86-9327-45A1-AC5A-0C7605CBFA10}</ProjectGuid>
+    <ProjectGuid>{D22CC471-10FB-4F69-ACFC-6A6C56CB5FD6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AllIndexes</RootNamespace>
-    <AssemblyName>AllIndexes</AssemblyName>
+    <RootNamespace>AllIndexesOf</RootNamespace>
+    <AssemblyName>AllIndexesOf</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

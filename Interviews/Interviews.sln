@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasDuplicate", "Interviews\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitFunction", "SplitFunction\SplitFunction.csproj", "{74F3FA4C-DE71-42F6-A3E9-D68A10802CAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllIndexesOf", "AllIndexesOf\AllIndexesOf.csproj", "{D22CC471-10FB-4F69-ACFC-6A6C56CB5FD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{74F3FA4C-DE71-42F6-A3E9-D68A10802CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F3FA4C-DE71-42F6-A3E9-D68A10802CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74F3FA4C-DE71-42F6-A3E9-D68A10802CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22CC471-10FB-4F69-ACFC-6A6C56CB5FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22CC471-10FB-4F69-ACFC-6A6C56CB5FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22CC471-10FB-4F69-ACFC-6A6C56CB5FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22CC471-10FB-4F69-ACFC-6A6C56CB5FD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
