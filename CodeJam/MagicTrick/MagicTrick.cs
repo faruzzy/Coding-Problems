@@ -11,8 +11,6 @@ namespace MagicTrick
     {
         static void Main(string[] args)
         {
-            List<int> indexes = "fooStringfooBar".AllIndexesOf("foo");
-
             string[] lines = File.ReadAllLines("small.in");
             int c = int.Parse(lines.First());
 
@@ -54,46 +52,6 @@ namespace MagicTrick
             {
                 for (int i = 0; i < answers.Count(); i++)
                     sw.WriteLine("Case #" + (i+1) + ": " + answers[i]);
-            }
-        }
-
-    }
-
-    static class Extension
-    {
-        public static List<int> AllIndexesOf(this string[] array, string value)
-        {
-            if (array.Length == 0)
-                throw new ArgumentException("The array cannot be empty", "array");
-
-            List<int> indexes = new List<int>();
-            /*for (int index = 0; index < array.Length; index++)
-            {
-                index = Array.IndexOf(array, value, index);
-            }*/
-
-            int i = 0;
-            for (int index = 0;; index += i)
-            {
-                i = Array.IndexOf(array, value, index); ;
-                if (i == -1)
-                    return indexes;
-
-                indexes.Add(index);
-            }
-        }
-
-        public static List<int> AllIndexesOf(this string str, string value)
-        {
-            if (String.IsNullOrEmpty(value))
-                throw new ArgumentException("the string to find may not be empty", "value");
-            List<int> indexes = new List<int>();
-            for (int index = 0; ; index += value.Length)
-            {
-                index = str.IndexOf(value, index);
-                if (index == -1)
-                    return indexes;
-                indexes.Add(index);
             }
         }
     }
