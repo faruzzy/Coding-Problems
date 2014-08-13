@@ -26,36 +26,68 @@ namespace AlienLanguage
             d = arr[1];
             n = arr[2];
 
-            var pattern = new List<string>();
+            var results = new List<string>();
+            var patterns = new List<string>();
             var testCases = new List<string>();
 
             for (int i = 1; i < d; i++)
-                pattern.Add(lines[i]);
+                patterns.Add(lines[i]);
 
             for (int i = d + 1; i < lines.Length; i++)
                 testCases.Add(lines[i]);
-        }
 
-        static void tokenizer(string str)
-        {
-            string pattern = @"[a-z]";
-
-            StringBuilder sb = new StringBuilder();
-            Regex regex = new Regex(pattern);
-
-            foreach(char s in str)
+            foreach(var testCase in testCases)
             {
-                if (regex.IsMatch(s.ToString()))
+                string currentString = testCase;
+                int index = 0;
+                int bigCounter = 0;
+
+                var token = new List<string>();
+                while(currentString.Length > 0)
                 {
-                    sb.Append(s.ToString());
+                    string letter = currentString.Substring(index, 1);
+                    if (letter.Equals("("))
+                    {
+                        int lower = currentString.IndexOf("(");
+                        int upper = currentString.IndexOf(")");
+
+                        token.Add(currentString.Substring(lower + 1, upper - 1));
+                        index = upper + 1;
+                        currentString = currentString.Substring(upper + 1);
+                    }
+                    else
+                    {
+                        token.Add(letter);
+                        index++;
+                        currentString = currentString.Substring(index);
+                    }
                 }
+
+                foreach(var pattern in patterns)
+                {
+                    string[] patternArray = new string[pattern.Length];
+
+                    for (int i = 0; i < pattern.Length; i++)
+                        patternArray[i] = pattern[i].ToString();
+
+                    int count = 0;
+                    for (int i = 0; i < token.Count(); i++)
+                    {
+                        if (token.Contains(patternArray[i]))
+                            count++;
+                    }
+
+                    if (count == token.Count())
+                        bigCounter += 1;
+                }
+
+                results.Add(bigCounter.ToString());
             }
 
-        }
+            foreach (var result in results)
+                Console.WriteLine(result);
 
-        static void tokenize()
-        {
-
+            Console.ReadLine();
         }
     }
 }
