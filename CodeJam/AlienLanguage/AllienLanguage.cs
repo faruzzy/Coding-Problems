@@ -45,7 +45,7 @@ namespace AlienLanguage
                 var token = new List<string>();
                 while(currentString.Length > 0)
                 {
-                    string letter = currentString.Substring(index, 1);
+                    string letter = currentString.Substring(0, 1);
                     if (letter.Equals("("))
                     {
                         int lower = currentString.IndexOf("(");
