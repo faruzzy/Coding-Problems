@@ -12,8 +12,9 @@ namespace AlienLanguage
     {
         static void Main(string[] args)
         {
-            // fileName is either 'small.in' or 'large.in'
-            string fileName = "small.in";
+            //string fileName = "test.txt";
+            //string fileName = "small.in";
+            string fileName = "large.in";
             string[] lines = File.ReadAllLines(fileName);
 
             int l = 0;
@@ -30,7 +31,7 @@ namespace AlienLanguage
             var patterns = new List<string>();
             var testCases = new List<string>();
 
-            for (int i = 1; i < d; i++)
+            for (int i = 1; i <= d; i++)
                 patterns.Add(lines[i]);
 
             for (int i = d + 1; i < lines.Length; i++)
@@ -39,7 +40,6 @@ namespace AlienLanguage
             foreach(var testCase in testCases)
             {
                 string currentString = testCase;
-                int index = 0;
                 int bigCounter = 0;
 
                 var token = new List<string>();
@@ -52,14 +52,12 @@ namespace AlienLanguage
                         int upper = currentString.IndexOf(")");
 
                         token.Add(currentString.Substring(lower + 1, upper - 1));
-                        index = upper + 1;
                         currentString = currentString.Substring(upper + 1);
                     }
                     else
                     {
                         token.Add(letter);
-                        index++;
-                        currentString = currentString.Substring(index);
+                        currentString = currentString.Substring(1);
                     }
                 }
 
@@ -73,7 +71,7 @@ namespace AlienLanguage
                     int count = 0;
                     for (int i = 0; i < token.Count(); i++)
                     {
-                        if (token.Contains(patternArray[i]))
+                        if (token[i].Contains(patternArray[i]))
                             count++;
                     }
 
@@ -84,10 +82,11 @@ namespace AlienLanguage
                 results.Add(bigCounter.ToString());
             }
 
-            foreach (var result in results)
-                Console.WriteLine(result);
-
-            Console.ReadLine();
+            using (StreamWriter sw = new StreamWriter("output.txt"))
+            {
+                for (int i = 0; i < results.Count(); i++)
+                    sw.WriteLine("Case #" + (i + 1) + ": " + results[i]);
+            }
         }
     }
 }
