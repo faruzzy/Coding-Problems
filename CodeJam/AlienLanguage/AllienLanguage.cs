@@ -70,10 +70,9 @@ namespace AlienLanguage
 
                     int count = 0;
                     for (int i = 0; i < token.Count(); i++)
-                    {
                         if (token[i].Contains(patternArray[i]))
                             count++;
-                    }
+                        else break;
 
                     if (count == token.Count())
                         bigCounter += 1;
