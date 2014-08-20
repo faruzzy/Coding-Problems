@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName\bin\Debug\UserName.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName\bin\Debug\UserName.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName\bin\Debug\UserName.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName\obj\Debug\UserName.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName\obj\Debug\UserName.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName\obj\Debug\UserName.pdb
