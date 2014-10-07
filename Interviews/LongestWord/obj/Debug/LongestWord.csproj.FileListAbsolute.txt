@@ -1,6 +1,0 @@
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\LongestWord\bin\Debug\LongestWord.exe.config
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\LongestWord\bin\Debug\LongestWord.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\LongestWord\bin\Debug\LongestWord.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\LongestWord\obj\Debug\LongestWord.csprojResolveAssemblyReference.cache
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\LongestWord\obj\Debug\LongestWord.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\LongestWord\obj\Debug\LongestWord.pdb

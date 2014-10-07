@@ -3,3 +3,4 @@ C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\bin\Deb
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\bin\Debug\AllIndexesOf.pdb
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\obj\Debug\AllIndexesOf.exe
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\obj\Debug\AllIndexesOf.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\obj\Debug\AllIndexesOf.csprojResolveAssemblyReference.cache
