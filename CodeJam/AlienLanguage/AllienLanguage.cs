@@ -48,11 +48,11 @@ namespace AlienLanguage
                     string letter = currentString.Substring(0, 1);
                     if (letter.Equals("("))
                     {
-                        int lower = currentString.IndexOf("(");
-                        int upper = currentString.IndexOf(")");
+                        int lowerIndex = currentString.IndexOf("(");
+                        int upperIndex = currentString.IndexOf(")");
 
-                        token.Add(currentString.Substring(lower + 1, upper - 1));
-                        currentString = currentString.Substring(upper + 1);
+                        token.Add(currentString.Substring(lowerIndex + 1, upperIndex - 1));
+                        currentString = currentString.Substring(upperIndex + 1);
                     }
                     else
                     {
