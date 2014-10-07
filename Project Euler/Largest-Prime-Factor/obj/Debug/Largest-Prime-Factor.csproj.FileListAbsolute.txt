@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Largest-Prime-Factor\bin\Debug\Largest-Prime-Factor.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Largest-Prime-Factor\bin\Debug\Largest-Prime-Factor.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Largest-Prime-Factor\bin\Debug\Largest-Prime-Factor.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Largest-Prime-Factor\obj\Debug\Largest-Prime-Factor.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Largest-Prime-Factor\obj\Debug\Largest-Prime-Factor.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Project Euler\Largest-Prime-Factor\obj\Debug\Largest-Prime-Factor.pdb

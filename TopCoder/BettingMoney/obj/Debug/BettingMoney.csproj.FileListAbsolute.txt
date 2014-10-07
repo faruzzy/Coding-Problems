@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\BettingMoney\bin\Debug\BettingMoney.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\BettingMoney\bin\Debug\BettingMoney.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\BettingMoney\bin\Debug\BettingMoney.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\BettingMoney\obj\Debug\BettingMoney.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\BettingMoney\obj\Debug\BettingMoney.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\BettingMoney\obj\Debug\BettingMoney.pdb

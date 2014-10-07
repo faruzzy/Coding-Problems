@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\CountWords\obj\Debug\CountWords.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\CountWords\bin\Debug\CountWords.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\CountWords\bin\Debug\CountWords.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\CountWords\bin\Debug\CountWords.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\CountWords\obj\Debug\CountWords.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\CountWords\obj\Debug\CountWords.pdb

@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\MatchMaking\bin\Debug\MatchMaking.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\MatchMaking\bin\Debug\MatchMaking.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\MatchMaking\bin\Debug\MatchMaking.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\MatchMaking\obj\Debug\MatchMaking.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\MatchMaking\obj\Debug\MatchMaking.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\MatchMaking\obj\Debug\MatchMaking.pdb

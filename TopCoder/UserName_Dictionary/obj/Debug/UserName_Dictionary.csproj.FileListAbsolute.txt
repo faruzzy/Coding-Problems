@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName_Dictionary\bin\Debug\UserName_Dictionary.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName_Dictionary\bin\Debug\UserName_Dictionary.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName_Dictionary\bin\Debug\UserName_Dictionary.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName_Dictionary\obj\Debug\UserName_Dictionary.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName_Dictionary\obj\Debug\UserName_Dictionary.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\TopCoder\UserName_Dictionary\obj\Debug\UserName_Dictionary.pdb

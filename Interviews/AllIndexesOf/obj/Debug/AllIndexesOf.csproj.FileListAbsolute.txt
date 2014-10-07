@@ -1,0 +1,5 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\bin\Debug\AllIndexesOf.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\bin\Debug\AllIndexesOf.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\bin\Debug\AllIndexesOf.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\obj\Debug\AllIndexesOf.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\AllIndexesOf\obj\Debug\AllIndexesOf.pdb

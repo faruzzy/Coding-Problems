@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\NumberStringToInt\bin\Debug\NumberStringToInt.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\NumberStringToInt\bin\Debug\NumberStringToInt.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\NumberStringToInt\bin\Debug\NumberStringToInt.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\NumberStringToInt\obj\Debug\NumberStringToInt.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\NumberStringToInt\obj\Debug\NumberStringToInt.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\NumberStringToInt\obj\Debug\NumberStringToInt.pdb

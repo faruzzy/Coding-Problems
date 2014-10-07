@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ReverseToken\bin\Debug\ReverseToken.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ReverseToken\bin\Debug\ReverseToken.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ReverseToken\bin\Debug\ReverseToken.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ReverseToken\obj\Debug\ReverseToken.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ReverseToken\obj\Debug\ReverseToken.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ReverseToken\obj\Debug\ReverseToken.pdb
