@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD819EFF-278E-49C8-8774-F774CD1F1952}</ProjectGuid>
+    <ProjectGuid>{BCC1BBF2-0FC1-41BF-BBE7-9AA0CDCBCA02}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Even_Fibonacci</RootNamespace>
-    <AssemblyName>Even-Fibonacci</AssemblyName>
+    <RootNamespace>Largest_Prime_Factor</RootNamespace>
+    <AssemblyName>Largest-Prime-Factor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
