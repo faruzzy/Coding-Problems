@@ -11,31 +11,42 @@ namespace UserName
     {
         static void Main(string[] args)
         {
-            //var existingNames = new string[] { "MasterOfDisaster", "TygerTyger1", "DingBat", "Orpheus", "TygerTyger", "WolfMan", "MrKnowItAll" };
-            //var existingNames = new string[] { "Bart4", "Bart5", "Bart6", "Bart7", "Bart8", "Bart9", "Bart10", "Lisa", "Marge", "Homer", "Bart", "Bart1", "Bart2", "Bart3", "Bart11", "Bart12" };
-            //var s = newMember(existingNames, "TygerTyger");
-            //var s = newMember(existingNames, "Bart");
-
-            var existingNames = new string[] { "TygerTyger2000", "TygerTyger1", "MasterDisaster", "DingBat", "Orpheus", "WolfMan", "MrKnowItAll" };
-            var s = newMember(existingNames, "TygerTyger");
+            var existingNames = new string[] { "MasterOfDisaster", "TygerTyger1", "DingBat", "Orpheus", "TygerTyger", "WolfMan", "MrKnowItAll" };
+            newMember(existingNames, "TygerTyger");
         }
-
+        
         private static string newMember(string[] existingNames, string newName)
         {
-            var nameDictionary = new Dictionary<string, int>();
-            Regex rgx = new Regex(@"\d");
-
             int n = existingNames.Length;
+            string num = string.Empty;
+            var list = new List<string>();
+
             for (int i = 0; i < n; i++)
+                if (existingNames[i].Contains(newName))
+                    list.Add(existingNames[i]);
+
+            int N = list.Count();
+
+            if (N == 1)
+                return newName + "1";
+            else 
             {
-                string match = rgx.Split(existingNames[i]).First();
-                if (nameDictionary.ContainsKey(match))
-                    nameDictionary[match]++;
-                else
-                    nameDictionary.Add(match, 0);
+                var numberList = new List<string>();
+                for (int i = 0; i < N; i++)
+                {
+                    var r = Regex.Match(list[i], @"[0-9]");
+
+                    if (!String.IsNullOrEmpty(r.ToString()))
+                        numberList.Add(r.ToString());
+                }
+
+                var array = numberList.ToArray();
+                Array.ConvertAll(array, int.Parse);
+
+                return (newName + (array.Max() + 1));
+
             }
 
-            return nameDictionary[newName] > 0 ? (newName + (nameDictionary[newName] + 1)) : newName;
         }
     }
 }

@@ -3,4 +3,3 @@ C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\SplitFunction\bin\De
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\SplitFunction\bin\Debug\SplitFunction.pdb
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\SplitFunction\obj\Debug\SplitFunction.exe
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\SplitFunction\obj\Debug\SplitFunction.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\SplitFunction\obj\Debug\SplitFunction.csprojResolveAssemblyReference.cache
