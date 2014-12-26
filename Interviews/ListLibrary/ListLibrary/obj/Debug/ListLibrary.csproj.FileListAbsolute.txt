@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ListLibrary\ListLibrary\bin\Debug\ListLibrary.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ListLibrary\ListLibrary\bin\Debug\ListLibrary.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ListLibrary\ListLibrary\bin\Debug\ListLibrary.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ListLibrary\ListLibrary\obj\Debug\ListLibrary.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ListLibrary\ListLibrary\obj\Debug\ListLibrary.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\ListLibrary\ListLibrary\obj\Debug\ListLibrary.pdb
