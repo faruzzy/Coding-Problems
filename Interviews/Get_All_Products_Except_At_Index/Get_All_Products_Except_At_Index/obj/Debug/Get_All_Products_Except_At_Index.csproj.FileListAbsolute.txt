@@ -1,0 +1,1 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\Get_All_Products_Except_At_Index\Get_All_Products_Except_At_Index\bin\Debug\Get_All_Products_Except_At_Index.exe.config
