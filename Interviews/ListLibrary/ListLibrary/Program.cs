@@ -21,6 +21,7 @@ namespace ListLibrary
 
             list.Print();
 
+            Console.WriteLine(list[2]);
             Console.ReadKey();
         }
     }

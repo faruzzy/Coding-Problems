@@ -8,7 +8,11 @@ namespace ListLibrary
 {
     public class ListNode
     {
+        /// <summary>
+        /// Reference to the next node
+        /// </summary>
         public ListNode Next { get; set; }
+
         public object Data { get; set; }
 
         public ListNode(object dataValue) : this(dataValue, null)

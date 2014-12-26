@@ -41,7 +41,7 @@ namespace ListLibrary
                     s++;
                 }
 
-                return current;
+                return current.Data;
             }
         }
 
@@ -97,7 +97,6 @@ namespace ListLibrary
                 firstNode = firstNode.Next;
 
             count--;
-
             return removedItem;
         }
 
