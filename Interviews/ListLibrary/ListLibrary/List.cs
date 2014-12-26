@@ -35,13 +35,21 @@ namespace ListLibrary
             {
                 int s = 0;
                 ListNode current = firstNode;
-                while(s != index)
-                {
+
+                while(s++ != index)
                     current = current.Next;
-                    s++;
-                }
 
                 return current.Data;
+            }
+            set
+            {
+                int s = 0;
+                ListNode current = firstNode;
+
+                while (s++ != index)
+                    current = current.Next;
+
+                current.Data = value;
             }
         }
 
