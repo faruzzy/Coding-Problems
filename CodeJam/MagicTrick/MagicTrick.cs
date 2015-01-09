@@ -14,10 +14,10 @@ namespace MagicTrick
             string[] lines = File.ReadAllLines("small.in");
             int c = int.Parse(lines.First());
 
-            List<string> answers = new List<string>();
+            var answers = new List<string>();
             for (int j = 1; j < lines.Length; j++)
             {
-                List<string> results = new List<string>();
+                var results = new List<string>();
 
                 int firstRowNumber = int.Parse(lines[j]);
                 string[] firstRow = lines[j + firstRowNumber].Split(' ');
@@ -28,11 +28,8 @@ namespace MagicTrick
                 string result = string.Empty;
 
                 for (int i = 0; i < firstRow.Length; i++)
-                {
-                    string value = firstRow[i];
-                    if (Array.IndexOf(secondRow, value) != -1)
-                        results.Add(value);
-                }
+                    if (Array.IndexOf(secondRow, firstRow[i]) != -1)
+                        results.Add(firstRow[i]);
 
                 if (results.Count() == 1)
                     result = results.First();
