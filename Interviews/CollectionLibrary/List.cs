@@ -9,8 +9,8 @@ namespace CollectionLibrary
 {
     public class List : IEnumerable
     {
-        public ListNode firstNode { get; set; }
-        public ListNode lastNode { get; set; }
+        private ListNode firstNode;
+        private ListNode lastNode;
         private int count = 0;
         public int Count
         {
@@ -49,7 +49,7 @@ namespace CollectionLibrary
         public IEnumerator GetEnumerator()
         {
             ListNode currentNode = firstNode;
-            while (firstNode.Next != null)
+            while (currentNode != null)
             {
                 yield return currentNode.Data;
                 currentNode = currentNode.Next;
@@ -78,6 +78,7 @@ namespace CollectionLibrary
             lastNode = currentNode;
             lastNode.Next = null;
 
+            count--;
             return removedItem;
         }
 
@@ -115,14 +116,17 @@ namespace CollectionLibrary
         public void Clear()
         {
             firstNode = lastNode = null;
+            count = 0;
         }
 
         private void InsertAtBack(IComparable insertValue)
         {
             if (IsEmpty())
-                lastNode = new ListNode(insertValue);
+                firstNode = lastNode = new ListNode(insertValue);
             else
                 lastNode = lastNode.Next = new ListNode(insertValue);
+
+            count++;
         }
 
         private bool IsEmpty()
