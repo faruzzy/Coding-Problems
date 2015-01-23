@@ -7,3 +7,6 @@ C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Interviews\Sorting\obj\Debug\So
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Algorithms\Sorting\bin\Debug\Sorting.exe.config
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Algorithms\Sorting\obj\Debug\Sorting.exe
 C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Algorithms\Sorting\obj\Debug\Sorting.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Algorithms\Sorting\bin\Debug\Sorting.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Algorithms\Sorting\bin\Debug\Sorting.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\Algorithms\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache

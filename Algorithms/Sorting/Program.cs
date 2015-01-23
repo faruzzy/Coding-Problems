@@ -11,8 +11,6 @@ namespace Sorting
         static void Main(string[] args)
         {
             var array = new int[] { 4, 10, 2, 7, 8, 9, 12 };
-            //BubbleSort(array);
-            //SelectionSort(array);
             LinqToArraySelectionSort(array);
         }
 
