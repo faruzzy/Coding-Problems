@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "CodeJam\ReverseWords.csproj", "{710A1BD7-5D4C-495B-925D-EC30185C95F9}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTrick", "MagicTrick\MagicTrick.csproj", "{A6B8562E-60EB-41FA-B24C-0FF20FF0BD49}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{1FC28945-F835-4C02-8165-316741D7449C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2008", "2008", "{F5226A42-5FB9-4F5B-BEC1-6E0C605F3AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +56,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FC28945-F835-4C02-8165-316741D7449C} = {F5226A42-5FB9-4F5B-BEC1-6E0C605F3AC0}
 	EndGlobalSection
 EndGlobal
