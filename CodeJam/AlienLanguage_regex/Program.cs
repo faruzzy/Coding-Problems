@@ -42,10 +42,7 @@ namespace AlienLanguage
                     bool broke = false;
                     for (int i = 0; i < match.Count; i++)
                     {
-                        int lowerIndex = match[i].IndexOf('(');
-                        int upperIndex = match[i].IndexOf(')');
-
-                        if (lowerIndex == -1)
+                        if (match[i].StartsWith("("))
                         {
                             if (!match[i].Equals(p[i].ToString())) broke = true;
                         }
