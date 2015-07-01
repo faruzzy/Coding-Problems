@@ -16,15 +16,11 @@ namespace AlienLanguage
             string fileName = "large.in";
             string[] lines = File.ReadAllLines(fileName);
 
-            int l = 0;
-            int d = 0;
-            int n = 0;
-
             int[] arr = Array.ConvertAll(lines.First().Split(' '), int.Parse);
 
-            l = arr[0];
-            d = arr[1];
-            n = arr[2];
+            int l = arr[0];
+            int d = arr[1];
+            int n = arr[2];
 
             var results = new List<string>();
             var patterns = new List<string>();
@@ -62,19 +58,14 @@ namespace AlienLanguage
 
                 foreach(var pattern in patterns)
                 {
-                    string[] patternArray = new string[pattern.Length];
-
-                    for (int i = 0; i < pattern.Length; i++)
-                        patternArray[i] = pattern[i].ToString();
-
                     int count = 0;
                     for (int i = 0; i < token.Count(); i++)
-                        if (token[i].Contains(patternArray[i]))
-                            count++;
+                    {
+                        if (token[i].Contains(pattern[i])) count++;
                         else break;
+                    }
 
-                    if (count == token.Count())
-                        bigCounter += 1;
+                    if (count == token.Count()) bigCounter++;
                 }
 
                 results.Add(bigCounter.ToString());
