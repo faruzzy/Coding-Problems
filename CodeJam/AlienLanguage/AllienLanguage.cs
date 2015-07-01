@@ -12,7 +12,6 @@ namespace AlienLanguage
     {
         static void Main(string[] args)
         {
-            //string fileName = "test.txt";
             //string fileName = "small.in";
             string fileName = "large.in";
             string[] lines = File.ReadAllLines(fileName);
