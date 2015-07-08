@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HasDuplicate", "Interviews\HasDuplicate.csproj", "{1E31CC30-3E44-46BB-AAFC-87A56A965B8B}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionLibrary", "CollectionLibrary\CollectionLibrary.csproj", "{89AB8938-0B61-47EE-B3AE-9DA3A7C2C665}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCombination", "LinkedListCombination\LinkedListCombination.csproj", "{34C031EB-A38D-432A-8E0D-115E37B4D188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateArray", "DuplicateArray\DuplicateArray.csproj", "{56D888EB-48ED-4F48-895D-825DFA9495CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{34C031EB-A38D-432A-8E0D-115E37B4D188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C031EB-A38D-432A-8E0D-115E37B4D188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C031EB-A38D-432A-8E0D-115E37B4D188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D888EB-48ED-4F48-895D-825DFA9495CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D888EB-48ED-4F48-895D-825DFA9495CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D888EB-48ED-4F48-895D-825DFA9495CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D888EB-48ED-4F48-895D-825DFA9495CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
