@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Intermediate_WhereShouldGramasHouseGo
 {
@@ -11,7 +10,7 @@ namespace Intermediate_WhereShouldGramasHouseGo
     {
         static void Main(string[] args)
         {
-            float minDistance = 0.0f;
+            decimal minDistance = 0;
             var list = new List<Point>();
             var lines = File.ReadAllLines("input.txt").Skip(1).ToArray();
             lines = cleanLines(lines);
@@ -24,7 +23,7 @@ namespace Intermediate_WhereShouldGramasHouseGo
                 {
                     var success = false;
                     pt2 = ExtractPointFromString(lines[j]);
-                    if (minDistance == 0.0f)
+                    if (minDistance == 0)
                     {
                         minDistance = Point.Distance(pt1, pt2);
                     }
@@ -65,43 +64,37 @@ namespace Intermediate_WhereShouldGramasHouseGo
         {
             for (int i = 0; i < lines.Length; i++)
                 lines[i] = lines[i].Substring(1, lines[i].Length - 2);
-                //lines[i] = lines[i].Substring(1, lines[i].Length - 1);
             return lines;
         }
 
         private static Point ExtractPointFromString(string str)
         {
             var temp = str.Split(',');                 
-            return new Point(float.Parse(temp[0]), float.Parse(temp[1]));
+            return new Point(decimal.Parse(temp[0]), decimal.Parse(temp[1]));
         }
 
     }
     
     class Point
     {
-        public float X { get; private set; }
-        public float Y { get; private set; }
+        public decimal X { get; private set; }
+        public decimal Y { get; private set; }
 
         public Point()
         {
-            X = 0.0f;
-            Y = 0.0f;
+            X = 0;
+            Y = 0;
         }
 
-        public Point(float x, float y)
+        public Point(decimal x, decimal y)
         {
             X = x;
             Y = y;
         }
 
-        public bool isNull() 
+        public static decimal Distance(Point pt1, Point pt2)
         {
-            return (X == 0.0f && Y == 0.0f); 
-        }
-
-        public static float Distance(Point pt1, Point pt2)
-        {
-            return (float) Math.Sqrt(Math.Pow(pt1.X - pt1.Y, 2) + Math.Pow(pt2.X - pt2.Y, 2));
+            return (decimal)Math.Sqrt(Math.Pow((double)(pt1.X - pt1.Y), 2) + Math.Pow((double)(pt2.X - pt2.Y), 2));
         }
     }
 }
