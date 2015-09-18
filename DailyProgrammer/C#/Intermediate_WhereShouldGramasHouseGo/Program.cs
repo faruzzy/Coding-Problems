@@ -91,7 +91,12 @@ namespace Intermediate_WhereShouldGramasHouseGo
             X = x;
             Y = y;
         }
-
+        /// <summary>
+        /// Determine disance between two points
+        /// </summary>
+        /// <param name="pt1">First Point</param>
+        /// <param name="pt2">Second Point</param>
+        /// <returns>The distance between the two Points</returns>
         public static decimal Distance(Point pt1, Point pt2)
         {
             return (decimal)Math.Sqrt(Math.Pow((double)(pt1.X - pt1.Y), 2) + Math.Pow((double)(pt2.X - pt2.Y), 2));
