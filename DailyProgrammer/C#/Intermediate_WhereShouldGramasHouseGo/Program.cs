@@ -60,6 +60,11 @@ namespace Intermediate_WhereShouldGramasHouseGo
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Replace all elements in the array with the orginal content minus the parantheses
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <returns></returns>
         private static string[] cleanLines(string[] lines)
         {
             for (int i = 0; i < lines.Length; i++)
@@ -77,7 +82,14 @@ namespace Intermediate_WhereShouldGramasHouseGo
     
     class Point
     {
+        /// <summary>
+        /// The X Coordinate of the Point
+        /// </summary>
         public decimal X { get; private set; }
+
+        /// <summary>
+        /// The Y Coordinate of the Point
+        /// </summary>
         public decimal Y { get; private set; }
 
         public Point()
@@ -91,6 +103,7 @@ namespace Intermediate_WhereShouldGramasHouseGo
             X = x;
             Y = y;
         }
+
         /// <summary>
         /// Determine disance between two points
         /// </summary>
