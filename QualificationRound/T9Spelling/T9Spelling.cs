@@ -12,16 +12,19 @@ namespace T9Spelling
     {
         static void Main(string[] args)
         {
-            var keyPad = new Dictionary<char[], string>();
-            keyPad.Add("abc".ToCharArray(), "2");
-            keyPad.Add("def".ToCharArray(), "3");
-            keyPad.Add("ghi".ToCharArray(), "4");
-            keyPad.Add("jkl".ToCharArray(), "5");
-            keyPad.Add("mno".ToCharArray(), "6");
-            keyPad.Add("pqrs".ToCharArray(), "7");
-            keyPad.Add("tuv".ToCharArray(), "8");
-            keyPad.Add("wxyz".ToCharArray(), "9");
-            keyPad.Add(" ".ToCharArray(), "0");
+            var keyPad = new Dictionary<char[], string>()
+            {
+                { "abc".ToCharArray(), "2" },
+                { "def".ToCharArray(), "3" },
+                { "ghi".ToCharArray(), "4" },
+                { "jkl".ToCharArray(), "5" },
+                { "mno".ToCharArray(), "6" }, 
+                { "pqrs".ToCharArray(), "7" },
+                { "tuv".ToCharArray(), "8" },
+                { "wxyz".ToCharArray(), "9" },
+                { " ".ToCharArray(), "0" }
+                
+            };
 
             string[] lines = File.ReadAllLines("small.in");
             var results = new List<string>();
