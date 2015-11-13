@@ -1,0 +1,6 @@
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\ReverseWords_No_Split\bin\Debug\ReverseWords_No_Split.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\ReverseWords_No_Split\bin\Debug\ReverseWords_No_Split.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\ReverseWords_No_Split\bin\Debug\ReverseWords_No_Split.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\ReverseWords_No_Split\obj\Debug\ReverseWords_No_Split.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\ReverseWords_No_Split\obj\Debug\ReverseWords_No_Split.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\ReverseWords_No_Split\obj\Debug\ReverseWords_No_Split.pdb

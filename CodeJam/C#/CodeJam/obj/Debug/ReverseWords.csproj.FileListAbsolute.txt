@@ -1,0 +1,12 @@
+c:\users\szd0qs\documents\visual studio 2013\Projects\CodeJam\CodeJam\bin\Debug\CodeJam.exe.config
+c:\users\szd0qs\documents\visual studio 2013\Projects\CodeJam\CodeJam\bin\Debug\CodeJam.exe
+c:\users\szd0qs\documents\visual studio 2013\Projects\CodeJam\CodeJam\bin\Debug\CodeJam.pdb
+c:\users\szd0qs\documents\visual studio 2013\Projects\CodeJam\CodeJam\obj\Debug\ReverseWords.csprojResolveAssemblyReference.cache
+c:\users\szd0qs\documents\visual studio 2013\Projects\CodeJam\CodeJam\obj\Debug\CodeJam.exe
+c:\users\szd0qs\documents\visual studio 2013\Projects\CodeJam\CodeJam\obj\Debug\CodeJam.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\CodeJam\bin\Debug\CodeJam.exe.config
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\CodeJam\bin\Debug\CodeJam.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\CodeJam\bin\Debug\CodeJam.pdb
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\CodeJam\obj\Debug\ReverseWords.csprojResolveAssemblyReference.cache
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\CodeJam\obj\Debug\CodeJam.exe
+C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\CodeJam\obj\Debug\CodeJam.pdb
