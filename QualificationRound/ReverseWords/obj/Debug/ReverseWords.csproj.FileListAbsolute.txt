@@ -1,5 +1,0 @@
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\ReverseWords\bin\Debug\ReverseWords.exe.config
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\ReverseWords\bin\Debug\ReverseWords.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\ReverseWords\bin\Debug\ReverseWords.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\ReverseWords\obj\Debug\ReverseWords.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\ReverseWords\obj\Debug\ReverseWords.pdb

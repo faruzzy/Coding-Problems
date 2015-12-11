@@ -1,6 +1,0 @@
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\StoreCredit\bin\Debug\StoreCredit.exe.config
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\StoreCredit\bin\Debug\StoreCredit.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\StoreCredit\bin\Debug\StoreCredit.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\StoreCredit\obj\Debug\StoreCredit.csprojResolveAssemblyReference.cache
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\StoreCredit\obj\Debug\StoreCredit.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\StoreCredit\obj\Debug\StoreCredit.pdb

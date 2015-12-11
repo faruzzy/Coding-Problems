@@ -1,6 +1,0 @@
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\T9Spelling\bin\Debug\T9Spelling.exe.config
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\T9Spelling\bin\Debug\T9Spelling.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\T9Spelling\bin\Debug\T9Spelling.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\T9Spelling\obj\Debug\T9Spelling.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\T9Spelling\obj\Debug\T9Spelling.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\QualificationRound\T9Spelling\obj\Debug\T9Spelling.csprojResolveAssemblyReference.cache
