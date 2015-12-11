@@ -116,7 +116,7 @@ public class LinkedList<T> {
         sb.append(head.getValue());
         Node<T> curr = head.getNext();
         while(curr != null) {
-            sb.append(" ,");
+            sb.append(", ");
             sb.append(curr.getValue());
             curr = curr.getNext();
         }

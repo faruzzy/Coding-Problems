@@ -1,6 +1,0 @@
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\Numbers\bin\Debug\Numbers.exe.config
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\Numbers\bin\Debug\Numbers.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\Numbers\bin\Debug\Numbers.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\Numbers\obj\Debug\Numbers.exe
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\Numbers\obj\Debug\Numbers.pdb
-C:\Users\szd0qs\Documents\GitHub\Coding-Problems\CodeJam\Numbers\obj\Debug\Numbers.csprojResolveAssemblyReference.cache

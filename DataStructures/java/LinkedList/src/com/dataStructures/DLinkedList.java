@@ -28,7 +28,10 @@ public class DLinkedList<T> {
     }
 
     public void prepend(final T value) {
-
+        DNode<T> node = new DNode<T>(value, null, null);
+        header.setNext(node);
+        node.setPrev(header);
+        length++;
     }
 
     private void checkEmpty() {
