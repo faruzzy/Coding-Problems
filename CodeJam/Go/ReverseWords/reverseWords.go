@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"log"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -22,12 +23,14 @@ func main() {
 			counter++
 			continue
 		}
-		counter++
 		words := strings.Split(scanner.Text(), " ")
+
+		lines += "Case #" + strconv.Itoa(counter) + ": "
 		for i := len(words) - 1; i >= 0; i-- {
 			lines += words[i] + " "
 		}
 		lines += "\n"
+		counter++
 	}
 
 	nf, err := os.Create("output.txt")
