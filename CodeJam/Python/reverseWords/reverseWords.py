@@ -9,9 +9,8 @@ with open('large.in') as f:
 try:
     os.remove('output.txt')
     with open('output.txt', 'a') as f:
-        for line in list:
-            f.write(line)
-            f.write('\n')
+        for i in range(0, len(list)):
+            f.write('Case #{0}: {1}\n'.format(i+1, list[i]))
 except OSError:
     pass
 
