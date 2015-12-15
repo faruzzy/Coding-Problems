@@ -1,23 +1,17 @@
 import os
+
+output = 'output.txt'
 with open('large.in') as f:
-    lines = f.readlines()[1:]
     list = []
-    for line in lines:
-        line = line.strip()
-        words = line.split()
-
-        current = ''
-        for w in reversed(words):
-            current += w + ' '
-        list.append(current)
-
+    next(f)
+    for line in f:
+        list.append(' '.join(reversed(line.split())))
 try:
-    if os.path.exists('output.txt'):
-        os.remove('output.txt')
-    with open('output.txt', 'a') as ff:
+    os.remove('output.txt')
+    with open('output.txt', 'a') as f:
         for line in list:
-            ff.write(line)
-            ff.write('\n')
+            f.write(line)
+            f.write('\n')
 except OSError:
     pass
 
