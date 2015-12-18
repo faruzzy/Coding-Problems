@@ -26,26 +26,18 @@ def main():
 
 def test():
     my_list = [int(n) for n in '2 1 9 4 4 56 90 3'.split(' ')]
-    print('index = {0}'.format(index_of(4, my_list, 5)))
-    print('index = {0}'.format(index_of(14, my_list, 12)))
+    print('index = {0}'.format(index_of(4, my_list, 1)))
+    print('index = {0}'.format(index_of(3, my_list, 0)))
 
-def index_of(element, list_element, start = 0):
-    length = len(list_element)
-    if length == 0:
+def index_of(element, list_element, start=0):
+    try:
+        if start < len(list_element):
+            index = list_element.index(element, start)
+            return index
+        else:
+            sys.exit('Starting index is above length of the list')
+    except ValueError:
         return -1
-
-    if start < length:
-        counter = 0
-        for i in range(length):
-            if counter < start:
-                counter += 1
-                continue
-
-            if list_element[i] == element:
-                return i;
-        return -1
-    else:
-        sys.exit("Starting index is above length of the list")
 
 if __name__ == '__main__':
     main()
