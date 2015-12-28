@@ -9,7 +9,7 @@ with open('large.in') as f:
 try:
     os.remove(output)
     with open(output, 'a') as f:
-        for i in range(0, len(list)):
+        for i in xrange(0, len(list)):
             f.write('Case #{0}: {1}\n'.format(i+1, list[i]))
 except OSError:
     pass
