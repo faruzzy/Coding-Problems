@@ -28,7 +28,7 @@ def main():
                     if t in value:
                         if k == last:
                             result += ' '
-                        for i in range(value.index(t) + 1):
+                        for i in xrange(value.index(t) + 1):
                             result += k
                         last = k
                         break
@@ -37,7 +37,7 @@ def main():
     try:
         os.remove('output.in')
         with open('output.in', 'a') as f:
-            for k in range(len(result_list)):
+            for k in xrange(len(result_list)):
                 f.write('Case #{0}: {1}\n'.format(k + 1, result_list[k]))
     except OSError:
         pass

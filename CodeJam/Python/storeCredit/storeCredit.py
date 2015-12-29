@@ -5,12 +5,12 @@ def main():
     res_list = []
     with open('large.in') as f:
         lines = [ line.strip() for line in f.readlines() ][1:]
-        for i in range(0, len(lines), 3):
+        for i in xrange(0, len(lines), 3):
             list = lines[i:i+3]
             items = [int(n) for n in list[2].split(' ')]
             total = int(list[0])
 
-            for j in range(len(items)):
+            for j in xrange(len(items)):
                 needle = total - items[j]
                 index = index_of(needle, items, j + 1)
                 if index != -1:
@@ -19,7 +19,7 @@ def main():
     try:
         os.remove(output)
         with open(output, 'a') as f:
-            for j in range(len(res_list)):
+            for j in xrange(len(res_list)):
                 f.write('Case #{0}: {1} {2}\n'.format(j + 1, res_list[j][0], res_list[j][1]))
     except OSError:
         pass
