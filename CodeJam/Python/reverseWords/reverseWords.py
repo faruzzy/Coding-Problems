@@ -5,7 +5,7 @@ with open('large.in') as f:
     list = []
     next(f)
     for line in f:
-        list.append(' '.join(reversed(line.split())))
+        list.append( ' '.join(reversed(line.split())) )
 try:
     os.remove(output)
     with open(output, 'a') as f:

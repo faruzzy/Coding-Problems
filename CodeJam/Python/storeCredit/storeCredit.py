@@ -6,9 +6,9 @@ def main():
     with open('large.in') as f:
         lines = [ line.strip() for line in f.readlines() ][1:]
         for i in xrange(0, len(lines), 3):
-            list = lines[i:i+3]
-            items = [int(n) for n in list[2].split(' ')]
-            total = int(list[0])
+            current_list = lines[i:i+3]
+            items = [ int(n) for n in current_list[2].split(' ') ]
+            total = int(current_list[0])
 
             for j in xrange(len(items)):
                 needle = total - items[j]
