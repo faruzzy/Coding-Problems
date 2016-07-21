@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 const [, ...output] = fs.readFileSync('large.in', 'utf8')
 	.trim()
@@ -8,7 +9,9 @@ const result = output.map(x => x.split(' ')
 		.reverse()
 		.join(' '));
 
-result.forEach(x => {
-	fs.appendFile('result.txt', `${x} \n`);
+const fd = fs.openSync(path.join(process.cwd(), 'result.txt'), 'a');
+result.forEach((x, index) => {
+	fs.writeSync(fd, `Case #${index + 1}: ${x}\n`);
 });
 
+fs.closeSync(fd);
