@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 def main():
     def indexOfSmallest(list):
         value = min(list)
@@ -10,7 +12,7 @@ def main():
     with open('large.txt') as f:
         lines = [ line.strip() for line in f.readlines()[1:] ]
         total_list = []
-        for i in xrange(0, len(lines), 3):
+        for i in range(0, len(lines), 3):
             total = 0
             x = [ int(item) for item in lines[i + 1].split(' ') ]
             y = [ int(item) for item in lines[i + 2].split(' ') ]
@@ -28,7 +30,7 @@ def main():
             total_list.append(total)
 
     with open('output.in', 'a') as f:
-        for i in xrange(len(total_list)):
+        for i in range(len(total_list)):
             f.write('Case #{0}: {1}\n'.format(i + 1, total_list[i]))
 
 if __name__ == '__main__':
