@@ -36,12 +36,13 @@ def main():
             result_list.append(result)
 
     try:
-        os.remove('output.in')
-        with open('output.in', 'a') as f:
-            for k in range(len(result_list)):
-                f.write('Case #{0}: {1}\n'.format(k + 1, result_list[k]))
+        os.remove('output.txt')
     except OSError:
         pass
+
+    with open('output.txt', 'a') as f:
+        for k in range(len(result_list)):
+            f.write('Case #{0}: {1}\n'.format(k + 1, result_list[k]))
 
 if __name__ == '__main__':
     main()

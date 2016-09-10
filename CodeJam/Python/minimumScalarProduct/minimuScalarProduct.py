@@ -1,6 +1,8 @@
 #!/usr/bin/python
+import os
 
 def main():
+    output = 'output.txt'
     def indexOfSmallest(list):
         value = min(list)
         return list.index(value)
@@ -29,7 +31,12 @@ def main():
                     del y[indexOfSmallest(y)]
             total_list.append(total)
 
-    with open('output.in', 'a') as f:
+    try:
+        os.remove(output)
+    except OSError:
+        pass
+
+    with open(output, 'a') as f:
         for i in range(len(total_list)):
             f.write('Case #{0}: {1}\n'.format(i + 1, total_list[i]))
 

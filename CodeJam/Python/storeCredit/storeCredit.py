@@ -19,11 +19,12 @@ def Main():
                     break
     try:
         os.remove(output)
+    except OSError:
+        pass
+
         with open(output, 'w+') as f:
             for j in range(len(res_list)):
                 f.write('Case #{0}: {1} {2}\n'.format(j + 1, res_list[j][0], res_list[j][1]))
-    except OSError:
-        pass
 
 def test():
     my_list = [int(n) for n in '2 1 9 4 4 56 90 3'.split(' ')]
