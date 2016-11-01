@@ -1,4 +1,16 @@
 // https://www.reddit.com/r/dailyprogrammer/comments/5aemnn/20161031_challenge_290_easy_kaprekar_numbers/
+// TODO: take care of bug: k(2, 100) won't print for some obscure reasons .. weird
+const fs = require('fs');
+
+const [...lines] = fs.readFileSync('kaprekar_number.txt', 'utf8')
+	.trim()
+	.split('\n');
+
+lines.forEach(line => {
+	const [a, b] = line.split(' ');
+	console.log(kaprekarNumber(a, b));
+});
+
 function kaprekarNumber(start=2, end=50) {
 	const output = [];
 	for (let j = start; j <= end; j++) {
@@ -18,7 +30,7 @@ function kaprekarNumber(start=2, end=50) {
 	return output.join(' ');
 }
 
-// I had with this more functional version
+// I had fun with this functional version :)
 function k(start=2, end=50) {
 	function range(s, e) {
 		const arr = [];
@@ -45,6 +57,3 @@ function k(start=2, end=50) {
 
 	return output.join(' ');
 }
-
-console.log(kaprekarNumber(101, 9000));
-console.log(k(101, 9000));
