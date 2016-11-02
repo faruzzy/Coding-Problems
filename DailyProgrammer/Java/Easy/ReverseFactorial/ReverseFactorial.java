@@ -1,6 +1,11 @@
 /**
  * https://www.reddit.com/r/dailyprogrammer/comments/55nior/20161003_challenge_286_easy_reverse_factorial/
  */
+
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+
 public class ReverseFactorial {
 	private static void reverse(int value) {
 		int current = value;
@@ -21,11 +26,16 @@ public class ReverseFactorial {
 	}
 
 	public static void main(String[] args) {
-		System.out.println();
-		reverse(120);
-		reverse(3628800);
-		reverse(479001600);
-		reverse(6);
-		reverse(18);
+		String inputFile = "input.in";
+		try {
+			String read = "";
+			BufferedReader in = new BufferedReader(new FileReader("input.in"));
+			while ((read = in.readLine()) != null) 
+				reverse(Integer.parseInt(read));
+		} catch (FileNotFoundException e) {
+			System.out.printf("File \"%s\" was not found", inputFile);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
