@@ -1,3 +1,7 @@
 *.html
 *.txt
 *.class
+.idea/
+out/
+.java-version
+*.iml
