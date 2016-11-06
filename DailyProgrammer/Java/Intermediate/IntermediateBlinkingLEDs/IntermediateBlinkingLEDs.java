@@ -12,13 +12,13 @@ public class IntermediateBlinkingLEDs {
 	private static int[] registerB;
 	private static int[] bits = new int[] { 7, 6, 5, 4, 3, 2, 1, 0 };
 
-	private static int[] converToBit(int value) {
+	private static int[] convertToBit(int value) {
 		int[] out = new int[bits.length];
 		int total = 0;
-	
+
 		for (int k = 0; k < bits.length; k++) {
-			double curr = Math.pow(bits[k], 2);
-			if (value < curr && (total + curr) < value) {
+			double curr = Math.pow(2, bits[k]);
+			if (curr <= value && (total + curr) <= value) {
 				out[k] = 1;
 				total += curr;
 			} else {
@@ -28,7 +28,7 @@ public class IntermediateBlinkingLEDs {
 			if (total == value)
 				break;
 		}
-		
+
 		return out;
 	}
 
@@ -36,7 +36,7 @@ public class IntermediateBlinkingLEDs {
 		int value = 0;
 		for (int k = 0; k < register.length; k++)
 			if (register[k] != 0)
-				value += Math.pow(register[k], bits[k]);
+				value += Math.pow(2, bits[k]);
 		return value;
 	}
 
@@ -52,27 +52,20 @@ public class IntermediateBlinkingLEDs {
 
 	private static void updateRegister(String s) {
 		String[] tokens = s.split(",");
-		if (tokens[0].equals("a"))
-			registerA = converToBit(Integer.parseInt(tokens[1]));
+		if (tokens[0].trim().equals("a"))
+			registerA = convertToBit(Integer.parseInt(tokens[1]));
 		else
-			registerB = converToBit(Integer.parseInt(tokens[1]));
-	}
-
-	private static boolean isRegisterValueZero(int[] register) {
-		for (int val: register)
-			if (val == 1)
-				return false;
-		return true;
+			registerB = convertToBit(Integer.parseInt(tokens[1]));
 	}
 
 	private static void parseProgram() throws IOException {
-		String inputFile = "input.in";
-		String operation = "";
-		List<String> lines = Files.readAllLines(Paths.get(inputFile), StandardCharsets.UTF_8);
-		List<String> loopInstructions = new ArrayList<String>();
-		List<String> collection = lines;
+		String inputFile = "input1.in";
+		String currDir = System.getProperty("user.dir");
+		List<String> lines = Files.readAllLines(
+				Paths.get(currDir + "/Intermediate/IntermediateBlinkingLEDs/" +  inputFile), StandardCharsets.UTF_8);
+		List<String> loopInstructions = new ArrayList<>();
 
-		main: for (int j = 0; j < collection.size(); j++) {
+		for (int j = 0; j < lines.size(); j++) {
 			String line = lines.get(j);
 
 			int ldIdx = line.indexOf("ld");
@@ -80,7 +73,7 @@ public class IntermediateBlinkingLEDs {
 			int colmIdx = line.indexOf(":");
 
 			if (ldIdx > 0) {
-				updateRegister(line.substring(ldIdx + 2));		
+				updateRegister(line.substring(ldIdx + 2));
 			}
 
 			int c = line.indexOf(",");
@@ -91,19 +84,27 @@ public class IntermediateBlinkingLEDs {
 			}
 
 			if (colmIdx > 0) {
-				operation = line.substring(0, colmIdx);		
-				for (int q = j + 1; q < lines.size(); q++) {
-					if (q == lines.size() - 1 && operation == "") {
-						if (operation.equals("djnz") && !isRegisterValueZero(registerB)) {
-							if (convertBitToValue(registerB) != 0) {
-								j--;
-								collection = loopInstructions;
-							} else {
-								break main;
-							}
-						}
+				int loopCount = convertBitToValue(registerB);
+				int k = 0;
+				int st = j + 1;
+
+				while (k++ < loopCount)
+					for (int h = st; h < lines.size() -1; h++)
+						loopInstructions.add(lines.get(h));
+
+                for (String instruction: loopInstructions) {
+					ldIdx = instruction.indexOf("ld");
+					ldOut = instruction.indexOf("out");
+					if (ldIdx > 0) {
+						updateRegister(instruction.substring(ldIdx + 2));
 					}
-					loopInstructions.add(lines.get(q));
+
+					c = instruction.indexOf(",");
+					if (ldOut > 0) {
+						String s = instruction.charAt(c + 1) + "";
+						String output = s.equals("a") ? LEDRepresentation(registerA) : LEDRepresentation(registerB);
+						System.out.println(output);
+					}
 				}
 			}
 		}
