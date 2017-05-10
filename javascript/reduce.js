@@ -14,3 +14,11 @@ function reduce(arr, intial) {
 	return sum + intial;
 }
 
+function sum(arr, init) {
+	return arr.reduce((acc, i) => acc + i, init);
+}
+
+let arr = [1, 2, 3];
+console.log('reduce: ', reduce(arr, 10));
+console.log('sum: ', sum(arr, 10));
+

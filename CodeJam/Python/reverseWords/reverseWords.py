@@ -1,13 +1,14 @@
 #!/usr/bin/python
 import os
 
+
 def Main():
     output = 'output.txt'
     with open('large.in') as f:
         list = []
         next(f)
         for line in f:
-            list.append( ' '.join(reversed(line.strip().split())) )
+            list.append(' '.join(reversed(line.strip().split())))
     try:
         os.remove(output)
     except OSError:
