@@ -1,3 +1,3 @@
 function splice() {
-	var args = [].slice.call(arguments);
+	let args = [].slice.call(arguments);
 }

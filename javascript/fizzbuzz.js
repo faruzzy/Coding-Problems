@@ -4,7 +4,7 @@
 */
 
 function fizzBuzz() {
-	var i = 1;
+	let i = 1;
 	for (i; i <= 100; i++) {
 		if (i % 3 === 0 && i % 5 !== 0) {
 			console.log('Fizz');

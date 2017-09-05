@@ -12,7 +12,7 @@ function median(arr) {
 	if (arr.length % 2 !== 0)
 		return arr[Math.floor(arr.length / 2)];
 	else 
-		var middleIndex = Math.floor(arr.length / 2);
+		let middleIndex = Math.floor(arr.length / 2);
 		return ( (arr[middleIndex - 1] + arr[middleIndex]) / 2 );
 }
 

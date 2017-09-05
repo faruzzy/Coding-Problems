@@ -8,9 +8,9 @@
 */
 
 function indexWords(arr) {
-	var obj = {};
-	for (var i in arr) {
-		var ch = arr[i].substring(0, 1);
+	let obj = {};
+	for (let i in arr) {
+		let ch = arr[i].substring(0, 1);
 		if (!obj[ch])
 			obj[ch] = [];
 
